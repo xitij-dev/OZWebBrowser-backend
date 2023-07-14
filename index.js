@@ -52,9 +52,10 @@ app.get("/*", (req, res) => {
 
 //mongodb connection
 mongoose.connect(
-  `mongodb+srv://${config.MONGODB_USERNAME}:${config.MONGODB_PASSWORD}@cluster0.eugnt.mongodb.net/${config.MONGODB_DB_NAME}`,
+  `mongodb://${config.MONGODB_USERNAME}:${config.MONGODB_PASSWORD}@178.62.2.5:27017/${config.MONGODB_DB_NAME}?authSource=admin`,
+  // `mongodb+srv://${config.MONGODB_USERNAME}:${config.MONGODB_PASSWORD}@cluster0.eugnt.mongodb.net/${config.MONGODB_DB_NAME}`,
   { useunifiedTopology: true, useNewUrlParser: true }
-);  // baki
+); // baki
 
 const db = mongoose.connection;
 
