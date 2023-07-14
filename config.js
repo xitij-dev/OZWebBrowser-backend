@@ -8,8 +8,8 @@ module.exports = {
   SECRET_KEY: "96uBIHZVlZsDQH8q51fX6yUUFULnrjtv",
 
   //gmail credentials for send email
-  EMAIL: "admin@admin.com",
-  PASSWORD: "123456",
+  EMAIL: "imoz.dev@gmail.com",
+  PASSWORD: "qnivomxblikczhyu",
 
   //port
   PORT: process.env.PORT || 5000,
@@ -17,7 +17,7 @@ module.exports = {
   //secret key for jwt
   JWT_SECRET: "4cbSmjiAzB",
 
-  baseURL: "https://appadmin.thejupiter.org/", 
+  baseURL: "https://appadmin.thejupiter.org/",
 
   //Firebase server key for notification
   SERVER_KEY:
