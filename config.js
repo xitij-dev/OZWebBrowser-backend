@@ -24,4 +24,4 @@ module.exports = {
     "AAAAdpYAeCU:APA91bGnSqyKvbU0gQG0C-rT5WOh9JYNfzsxIFHas_O3LjQzAHtnY21jEVCo5om8pms_b0MBF4-TQJkMIbENdTN0bWTVBBwnwub5nw3QK638g93hp2Asyf8lWql-8ObxgZ3Y1j-KUEHA",
 };
 
-//server Xitij#456123
+// oz : 71985244932e
